@@ -9,24 +9,35 @@ import {
   SiCss3,
   SiJavascript,
   SiNodedotjs,
-  SiExpress,
   SiVercel,
   SiVite,
+  SiPython,
+  SiMysql,
 } from "react-icons/si";
+import { DiJava } from "react-icons/di"; // ✅ Java from devicons
 import { FaProjectDiagram } from "react-icons/fa";
 
 const tech = [
-  { name: "Next.js", icon: SiNextdotjs },
-  { name: "React.js", icon: SiReact },
-  { name: "Vite", icon: SiVite },
-  { name: "Node.js", icon: SiNodedotjs },
-  { name: "Express.js", icon: SiExpress },
-  { name: "n8n", icon: FaProjectDiagram },
-  { name: "Vercel", icon: SiVercel },
+  // Languages
+  { name: "Java", icon: DiJava },
+  { name: "Python", icon: SiPython },
+  { name: "JavaScript", icon: SiJavascript },
+  { name: "SQL", icon: SiMysql },
+
+  // Frontend
   { name: "HTML5", icon: SiHtml5 },
   { name: "CSS3", icon: SiCss3 },
-  { name: "JavaScript", icon: SiJavascript },
+  { name: "React.js", icon: SiReact },
+  { name: "Next.js", icon: SiNextdotjs },
   { name: "TailwindCSS", icon: SiTailwindcss },
+  { name: "Vite", icon: SiVite },
+
+  // Backend
+  { name: "Node.js", icon: SiNodedotjs },
+  { name: "n8n", icon: FaProjectDiagram },
+
+  // Tools/Hosting
+  { name: "Vercel", icon: SiVercel },
 ];
 
 export default function Technologies() {
