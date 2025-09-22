@@ -22,21 +22,18 @@ export default function Contact() {
       >
         <p className="text-base sm:text-lg text-gray-300 mb-6">
           I’m always open to opportunities, collaborations, or just a friendly
-          chat. Feel free to reach out through any of the platforms below 👇
+          chat. Reach out through any of the platforms below 👇
         </p>
 
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col gap-4">
           {/* Email */}
           <a
             href="mailto:surjyagoswami1@gmail.com"
-            className="flex flex-col sm:flex-row items-center gap-3 p-4 rounded-xl 
-              bg-violet-700/30 hover:bg-violet-600/40 hover:shadow-[0_0_15px_rgba(139,92,246,0.5)]
-              transition-all duration-300 group"
+            className="flex items-center justify-center gap-3 p-4 rounded-xl 
+              bg-gradient-to-r from-violet-600 to-purple-700 hover:from-violet-500 hover:to-purple-600 
+              text-white font-medium shadow-lg hover:shadow-violet-500/40 transition-all duration-300"
           >
-            <Mail className="w-6 h-6 text-violet-300 group-hover:text-white transition" />
-            <span className="text-sm sm:text-lg text-gray-200 group-hover:text-white transition break-all">
-              surjyagoswami1@gmail.com
-            </span>
+            <Mail className="w-5 h-5" /> Email Me
           </a>
 
           {/* WhatsApp */}
@@ -44,14 +41,11 @@ export default function Contact() {
             href="https://wa.me/916291179735"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col sm:flex-row items-center gap-3 p-4 rounded-xl 
-              bg-violet-700/30 hover:bg-violet-600/40 hover:shadow-[0_0_15px_rgba(34,197,94,0.5)]
-              transition-all duration-300 group"
+            className="flex items-center justify-center gap-3 p-4 rounded-xl 
+              bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-400 hover:to-emerald-500 
+              text-white font-medium shadow-lg hover:shadow-green-400/40 transition-all duration-300"
           >
-            <Phone className="w-6 h-6 text-violet-300 group-hover:text-green-400 transition" />
-            <span className="text-sm sm:text-lg text-gray-200 group-hover:text-white transition">
-              +91 6291179735
-            </span>
+            <Phone className="w-5 h-5" /> Chat on WhatsApp
           </a>
 
           {/* LinkedIn */}
@@ -59,14 +53,11 @@ export default function Contact() {
             href="https://www.linkedin.com/in/surjya-gopal-goswami-a03877243/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col sm:flex-row items-center gap-3 p-4 rounded-xl 
-              bg-violet-700/30 hover:bg-violet-600/40 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]
-              transition-all duration-300 group"
+            className="flex items-center justify-center gap-3 p-4 rounded-xl 
+              bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 
+              text-white font-medium shadow-lg hover:shadow-blue-400/40 transition-all duration-300"
           >
-            <Linkedin className="w-6 h-6 text-violet-300 group-hover:text-blue-400 transition" />
-            <span className="text-sm sm:text-lg text-gray-200 group-hover:text-white transition truncate max-w-[250px]">
-              linkedin.com/in/surjya-gopal-goswami
-            </span>
+            <Linkedin className="w-5 h-5" /> View LinkedIn
           </a>
 
           {/* GitHub */}
@@ -74,14 +65,11 @@ export default function Contact() {
             href="https://github.com/Surjya-Goswami7"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex flex-col sm:flex-row items-center gap-3 p-4 rounded-xl 
-              bg-violet-700/30 hover:bg-violet-600/40 hover:shadow-[0_0_15px_rgba(255,255,255,0.4)]
-              transition-all duration-300 group"
+            className="flex items-center justify-center gap-3 p-4 rounded-xl 
+              bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-700 hover:to-gray-600 
+              text-white font-medium shadow-lg hover:shadow-gray-400/40 transition-all duration-300"
           >
-            <Github className="w-6 h-6 text-violet-300 group-hover:text-gray-100 transition" />
-            <span className="text-sm sm:text-lg text-gray-200 group-hover:text-white transition truncate max-w-[250px]">
-              github.com/Surjya-Goswami7
-            </span>
+            <Github className="w-5 h-5" /> View GitHub
           </a>
         </div>
       </div>
