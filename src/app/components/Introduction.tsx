@@ -24,11 +24,16 @@ export default function Introduction() {
         viewport={{ once: true }}
         className="relative flex-shrink-0"
       >
-        <div className="absolute -inset-2 rounded-2xl bg-gradient-to-r from-violet-500 to-indigo-500 blur-2xl opacity-40 animate-pulse" />
+        {/* Subtle Glow (not too strong) */}
+        <div className="absolute -inset-2 rounded-2xl bg-gradient-to-r from-violet-500 to-fuchsia-500 blur-xl opacity-25" />
+
+        {/* Main Image */}
         <img
           src="/me.jpg"
           alt="My photo"
-          className="relative w-64 h-80 md:w-80 md:h-[420px] object-cover rounded-2xl shadow-2xl border-2 border-violet-500/40"
+          className="relative w-64 h-80 md:w-80 md:h-[420px] object-cover rounded-2xl 
+      shadow-[0_8px_30px_rgba(0,0,0,0.6)] border-2 border-violet-400/60 
+      brightness-110 saturate-125 transition-all duration-500 hover:scale-105"
         />
       </motion.div>
 
